@@ -5,7 +5,7 @@ echo ====================================
 echo.
 
 echo Step 1: Creating virtual environment...
-python -m venv venv
+python -m venv .venv
 if %errorlevel% neq 0 (
     echo Error: Failed to create virtual environment
     pause
@@ -15,7 +15,7 @@ echo Virtual environment created successfully!
 echo.
 
 echo Step 2: Activating virtual environment...
-call venv\Scripts\activate.bat
+call .venv\Scripts\activate.bat
 echo.
 
 echo Step 3: Installing dependencies...

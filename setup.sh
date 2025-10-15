@@ -6,7 +6,7 @@ echo "===================================="
 echo ""
 
 echo "Step 1: Creating virtual environment..."
-python3 -m venv venv
+python3 -m venv .venv
 if [ $? -ne 0 ]; then
     echo "Error: Failed to create virtual environment"
     exit 1
@@ -15,7 +15,7 @@ echo "Virtual environment created successfully!"
 echo ""
 
 echo "Step 2: Activating virtual environment..."
-source venv/bin/activate
+source .venv/bin/activate
 echo ""
 
 echo "Step 3: Installing dependencies..."

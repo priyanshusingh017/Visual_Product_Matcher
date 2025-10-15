@@ -12,7 +12,7 @@ Features:
     - Category-aware ranking
     - RESTful API endpoints
 
-Author: Visual Product Matcher Team
+Author: Priyanshu Singh
 Version: 1.0.0
 License: MIT
 """
