@@ -56,6 +56,18 @@ Key capabilities:
 
 ---
 
+## 🧱 Technology Stack
+
+- Backend: Python 3.9+, Flask 3.1.2, Flask-Cors 4.0.0
+- AI: google-generativeai 0.8.3 (Gemini 2.0 Flash)
+- Imaging: Pillow 11.3.0
+- HTTP/Networking: requests 2.32.x
+- Frontend: HTML5, CSS3 (Grid/Flexbox), Vanilla JavaScript
+- Deployment: Gunicorn, Procfile/runtime.txt (Heroku/Render compatible)
+- CI: GitHub Actions (product validator + linting)
+
+---
+
 ## 🚀 Demo
 
 Run locally then open http://localhost:5000
@@ -71,6 +83,31 @@ Workflow:
 
 ---
 
+## ⚡ Quick Start
+
+Windows PowerShell (copy-paste):
+
+```powershell
+# 1) Clone and enter folder
+git clone https://github.com/priyanshusingh017/Visual_Product_Matcher.git; cd Visual_Product_Matcher
+
+# 2) Create & activate venv
+python -m venv .venv; .\.venv\Scripts\Activate.ps1
+
+# 3) Install dependencies
+pip install -r requirements.txt
+
+# 4) Configure API key
+Copy-Item .env.example .env; notepad .env  # add GEMINI_API_KEY=<your_key>
+
+# 5) Run the app
+python app.py
+```
+
+Then open http://localhost:5000
+
+---
+
 ## 🛠 Installation
 
 Prerequisites:
@@ -80,7 +117,7 @@ Prerequisites:
 
 Steps (Windows PowerShell):
 1) Clone repo
-   git clone <your-repo-url>; cd "Visual Product Matcher Build"
+  git clone https://github.com/priyanshusingh017/Visual_Product_Matcher.git; cd Visual_Product_Matcher
 2) Create venv and activate
    python -m venv .venv; .\.venv\Scripts\Activate.ps1
 3) Install dependencies
@@ -315,7 +352,7 @@ GET /api/categories
 2. Login and create app:
    ```bash
    heroku login
-   cd "d:\Code\Visual Product Matcher Build"
+  cd path\to\Visual_Product_Matcher
    heroku create visual-product-matcher
    ```
 
@@ -362,7 +399,7 @@ After deploying, verify:
 ## 📂 Project Structure
 
 ```
-Visual Product Matcher Build/
+Visual_Product_Matcher/
 │
 ├── 📄 Core Application
 │   ├── app.py                    # Flask API server (594 lines)
@@ -393,7 +430,7 @@ Visual Product Matcher Build/
 │           └── ci.yml            # GitHub Actions pipeline
 │
 └── 📖 Documentation
-    └── README.md                 # This file (comprehensive guide)
+  └── README.md                 # This file (comprehensive guide)
 ```
 
 **Key Files Explained:**
@@ -807,12 +844,6 @@ time curl -X POST -F "image=@test.jpg" http://localhost:5000/api/search
 - [ ] Rapid filter changes
 - [ ] Search with Gemini API offline
 - [ ] Search with invalid API key
-
----
-
-## 📄 License
-
-MIT License (see LICENSE)
 
 ---
 
