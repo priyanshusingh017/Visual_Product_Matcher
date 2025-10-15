@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 15 Pro",
+    "category": "Electronics",
+    "price": 999,
+    "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500",
+    "description": "Latest iPhone with titanium design and A17 Pro chip"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "Electronics",
+    "price": 1199,
+    "image_url": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500",
+    "description": "Premium Android smartphone with S Pen"
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro 16-inch",
+    "category": "Electronics",
+    "price": 2499,
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+    "description": "Professional laptop with M3 Pro chip"
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15",
+    "category": "Electronics",
+    "price": 1799,
+    "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500",
+    "description": "Premium Windows laptop with InfinityEdge display"
+  },
+  {
+    "id": 5,
+    "name": "Sony WH-1000XM5",
+    "category": "Electronics",
+    "price": 399,
+    "image_url": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500",
+    "description": "Industry-leading noise cancelling headphones"
+  },
+  {
+    "id": 6,
+    "name": "AirPods Pro 2",
+    "category": "Electronics",
+    "price": 249,
+    "image_url": "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=500",
+    "description": "Wireless earbuds with active noise cancellation"
+  },
+  {
+    "id": 7,
+    "name": "iPad Air",
+    "category": "Electronics",
+    "price": 599,
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+    "description": "Versatile tablet with M2 chip"
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy Tab S9",
+    "category": "Electronics",
+    "price": 799,
+    "image_url": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=500",
+    "description": "Premium Android tablet with S Pen"
+  },
+  {
+    "id": 9,
+    "name": "Canon EOS R6",
+    "category": "Electronics",
+    "price": 2499,
+    "image_url": "https://images.unsplash.com/photo-1606980623095-2c0e8e5ed555?w=500",
+    "description": "Full-frame mirrorless camera"
+  },
+  {
+    "id": 10,
+    "name": "Sony A7 IV",
+    "category": "Electronics",
+    "price": 2498,
+    "image_url": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500",
+    "description": "Professional hybrid camera"
+  },
+  {
+    "id": 11,
+    "name": "Nike Air Max 270",
+    "category": "Footwear",
+    "price": 150,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "description": "Comfortable running shoes with Air cushioning"
+  },
+  {
+    "id": 12,
+    "name": "Adidas Ultraboost 23",
+    "category": "Footwear",
+    "price": 190,
+    "image_url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500",
+    "description": "Premium running shoes with Boost technology"
+  },
+  {
+    "id": 13,
+    "name": "Converse Chuck Taylor",
+    "category": "Footwear",
+    "price": 65,
+    "image_url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=500",
+    "description": "Classic canvas sneakers"
+  },
+  {
+    "id": 14,
+    "name": "Vans Old Skool",
+    "category": "Footwear",
+    "price": 70,
+    "image_url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500",
+    "description": "Iconic skateboarding shoes"
+  },
+  {
+    "id": 15,
+    "name": "The North Face Jacket",
+    "category": "Clothing",
+    "price": 299,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
+    "description": "Waterproof outdoor jacket"
+  },
+  {
+    "id": 16,
+    "name": "Patagonia Down Sweater",
+    "category": "Clothing",
+    "price": 279,
+    "image_url": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=500",
+    "description": "Lightweight insulated jacket"
+  },
+  {
+    "id": 17,
+    "name": "Levi's 501 Jeans",
+    "category": "Clothing",
+    "price": 98,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+    "description": "Classic straight-fit denim jeans"
+  },
+  {
+    "id": 18,
+    "name": "Ray-Ban Aviator",
+    "category": "Accessories",
+    "price": 154,
+    "image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500",
+    "description": "Iconic aviator sunglasses"
+  },
+  {
+    "id": 19,
+    "name": "Oakley Holbrook",
+    "category": "Accessories",
+    "price": 173,
+    "image_url": "https://images.unsplash.com/photo-1577803645773-f96470509666?w=500",
+    "description": "Sports performance sunglasses"
+  },
+  {
+    "id": 20,
+    "name": "Apple Watch Series 9",
+    "category": "Electronics",
+    "price": 429,
+    "image_url": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500",
+    "description": "Advanced smartwatch with health tracking"
+  },
+  {
+    "id": 21,
+    "name": "Samsung Galaxy Watch 6",
+    "category": "Electronics",
+    "price": 299,
+    "image_url": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500",
+    "description": "Android smartwatch with fitness features"
+  },
+  {
+    "id": 22,
+    "name": "Herman Miller Aeron Chair",
+    "category": "Furniture",
+    "price": 1395,
+    "image_url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=500",
+    "description": "Ergonomic office chair"
+  },
+  {
+    "id": 23,
+    "name": "IKEA Markus Chair",
+    "category": "Furniture",
+    "price": 199,
+    "image_url": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500",
+    "description": "Affordable ergonomic office chair"
+  },
+  {
+    "id": 24,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 499,
+    "image_url": "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=500",
+    "description": "Electric height-adjustable desk"
+  },
+  {
+    "id": 25,
+    "name": "Kindle Paperwhite",
+    "category": "Electronics",
+    "price": 139,
+    "image_url": "https://images.unsplash.com/photo-1592503254549-d83d24a4dfab?w=500",
+    "description": "E-reader with adjustable warm light"
+  },
+  {
+    "id": 26,
+    "name": "Kobo Libra 2",
+    "category": "Electronics",
+    "price": 179,
+    "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+    "description": "Waterproof e-reader with adjustable display"
+  },
+  {
+    "id": 27,
+    "name": "Nintendo Switch OLED",
+    "category": "Electronics",
+    "price": 349,
+    "image_url": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=500",
+    "description": "Hybrid gaming console with OLED screen"
+  },
+  {
+    "id": 28,
+    "name": "PlayStation 5",
+    "category": "Electronics",
+    "price": 499,
+    "image_url": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500",
+    "description": "Next-gen gaming console"
+  },
+  {
+    "id": 29,
+    "name": "Xbox Series X",
+    "category": "Electronics",
+    "price": 499,
+    "image_url": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=500",
+    "description": "Powerful 4K gaming console"
+  },
+  {
+    "id": 30,
+    "name": "Logitech MX Master 3S",
+    "category": "Electronics",
+    "price": 99,
+    "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500",
+    "description": "Advanced wireless mouse"
+  },
+  {
+    "id": 31,
+    "name": "Keychron K8 Keyboard",
+    "category": "Electronics",
+    "price": 84,
+    "image_url": "https://images.unsplash.com/photo-1595225476474-87563907a212?w=500",
+    "description": "Wireless mechanical keyboard"
+  },
+  {
+    "id": 32,
+    "name": "LG 27-inch 4K Monitor",
+    "category": "Electronics",
+    "price": 449,
+    "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
+    "description": "UHD IPS display for professionals"
+  },
+  {
+    "id": 33,
+    "name": "Dell UltraSharp Monitor",
+    "category": "Electronics",
+    "price": 599,
+    "image_url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=500",
+    "description": "Premium professional display"
+  },
+  {
+    "id": 34,
+    "name": "Bose QuietComfort 45",
+    "category": "Electronics",
+    "price": 329,
+    "image_url": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500",
+    "description": "Comfortable noise-cancelling headphones"
+  },
+  {
+    "id": 35,
+    "name": "JBL Flip 6",
+    "category": "Electronics",
+    "price": 129,
+    "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500",
+    "description": "Portable Bluetooth speaker"
+  },
+  {
+    "id": 36,
+    "name": "Sonos One",
+    "category": "Electronics",
+    "price": 219,
+    "image_url": "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=500",
+    "description": "Smart speaker with voice control"
+  },
+  {
+    "id": 37,
+    "name": "GoPro Hero 12",
+    "category": "Electronics",
+    "price": 399,
+    "image_url": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=500",
+    "description": "Waterproof action camera"
+  },
+  {
+    "id": 38,
+    "name": "DJI Mini 3 Pro",
+    "category": "Electronics",
+    "price": 759,
+    "image_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500",
+    "description": "Compact foldable drone"
+  },
+  {
+    "id": 39,
+    "name": "Fitbit Charge 6",
+    "category": "Electronics",
+    "price": 159,
+    "image_url": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=500",
+    "description": "Fitness tracker with GPS"
+  },
+  {
+    "id": 40,
+    "name": "Garmin Forerunner 265",
+    "category": "Electronics",
+    "price": 449,
+    "image_url": "https://images.unsplash.com/photo-1510017098667-27dfc7150acb?w=500",
+    "description": "Advanced running smartwatch"
+  },
+  {
+    "id": 41,
+    "name": "Yeti Rambler Tumbler",
+    "category": "Home",
+    "price": 35,
+    "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+    "description": "Insulated stainless steel tumbler"
+  },
+  {
+    "id": 42,
+    "name": "Hydro Flask Water Bottle",
+    "category": "Home",
+    "price": 44,
+    "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+    "description": "Vacuum insulated water bottle"
+  },
+  {
+    "id": 43,
+    "name": "Instant Pot Duo",
+    "category": "Home",
+    "price": 99,
+    "image_url": "https://images.unsplash.com/photo-1585515320310-259814833255?w=500",
+    "description": "7-in-1 electric pressure cooker"
+  },
+  {
+    "id": 44,
+    "name": "Ninja Air Fryer",
+    "category": "Home",
+    "price": 119,
+    "image_url": "https://images.unsplash.com/photo-1585515320310-259814833255?w=500",
+    "description": "Large capacity air fryer"
+  },
+  {
+    "id": 45,
+    "name": "Dyson V15 Vacuum",
+    "category": "Home",
+    "price": 749,
+    "image_url": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=500",
+    "description": "Cordless vacuum with laser detection"
+  },
+  {
+    "id": 46,
+    "name": "Roomba j7+",
+    "category": "Home",
+    "price": 799,
+    "image_url": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=500",
+    "description": "Robot vacuum with self-emptying base"
+  },
+  {
+    "id": 47,
+    "name": "Nespresso Vertuo",
+    "category": "Home",
+    "price": 199,
+    "image_url": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+    "description": "Coffee and espresso maker"
+  },
+  {
+    "id": 48,
+    "name": "Breville Barista Express",
+    "category": "Home",
+    "price": 699,
+    "image_url": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+    "description": "Espresso machine with grinder"
+  },
+  {
+    "id": 49,
+    "name": "KitchenAid Stand Mixer",
+    "category": "Home",
+    "price": 379,
+    "image_url": "https://images.unsplash.com/photo-1590167556361-02a8d70d6a1c?w=500",
+    "description": "Professional stand mixer"
+  },
+  {
+    "id": 50,
+    "name": "Le Creuset Dutch Oven",
+    "category": "Home",
+    "price": 380,
+    "image_url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=500",
+    "description": "Cast iron enameled cookware"
+  },
+  {
+    "id": 51,
+    "name": "Philips Hue Starter Kit",
+    "category": "Home",
+    "price": 199,
+    "image_url": "https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=500",
+    "description": "Smart LED lighting system"
+  },
+  {
+    "id": 52,
+    "name": "Ring Video Doorbell",
+    "category": "Home",
+    "price": 99,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+    "description": "Smart doorbell with video"
+  },
+  {
+    "id": 53,
+    "name": "Nest Learning Thermostat",
+    "category": "Home",
+    "price": 249,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+    "description": "Smart programmable thermostat"
+  },
+  {
+    "id": 54,
+    "name": "Amazon Echo Dot",
+    "category": "Electronics",
+    "price": 49,
+    "image_url": "https://images.unsplash.com/photo-1589492477829-f9875213aaf9?w=500",
+    "description": "Compact smart speaker with Alexa"
+  },
+  {
+    "id": 55,
+    "name": "Google Nest Mini",
+    "category": "Electronics",
+    "price": 49,
+    "image_url": "https://images.unsplash.com/photo-1589492477829-f9875213aaf9?w=500",
+    "description": "Smart speaker with Google Assistant"
+  },
+  {
+    "id": 56,
+    "name": "Cotton Crew T‑Shirt (2-Pack)",
+    "category": "Clothing",
+    "price": 24,
+    "image_url": "https://images.unsplash.com/photo-1520975922284-021cc6b42a6b?w=500",
+    "description": "Soft 100% cotton everyday tees with classic fit"
+  },
+  {
+    "id": 57,
+    "name": "Everyday Slim Jeans",
+    "category": "Clothing",
+    "price": 49,
+    "image_url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=500",
+    "description": "Stretch denim jeans for daily wear"
+  },
+  {
+    "id": 58,
+    "name": "Stainless Steel Water Bottle 32oz",
+    "category": "Home",
+    "price": 29,
+    "image_url": "https://images.unsplash.com/photo-1588666309990-c16603ea41ea?w=500",
+    "description": "Vacuum insulated bottle keeps drinks cold for 24h"
+  },
+  {
+    "id": 59,
+    "name": "Reusable Grocery Tote (Set of 5)",
+    "category": "Home",
+    "price": 18,
+    "image_url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=500",
+    "description": "Heavy‑duty reusable totes for everyday shopping"
+  },
+  {
+    "id": 60,
+    "name": "Classic White Sneakers",
+    "category": "Footwear",
+    "price": 59,
+    "image_url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=500",
+    "description": "Minimal leather sneakers suitable for daily outfits"
+  },
+  {
+    "id": 61,
+    "name": "Merino Wool Socks (4-Pack)",
+    "category": "Clothing",
+    "price": 22,
+    "image_url": "https://images.unsplash.com/photo-1612197527762-2f82d9b41d69?w=500",
+    "description": "Breathable, odor‑resistant socks for all‑day comfort"
+  },
+  {
+    "id": 62,
+    "name": "Canvas Daypack Backpack",
+    "category": "Accessories",
+    "price": 39,
+    "image_url": "https://images.unsplash.com/photo-1514477917009-389c76a86b68?w=500",
+    "description": "Lightweight everyday backpack with laptop sleeve"
+  },
+  {
+    "id": 63,
+    "name": "Ceramic Coffee Mug 12oz",
+    "category": "Home",
+    "price": 12,
+    "image_url": "https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?w=500",
+    "description": "Dishwasher‑safe ceramic mug with comfortable handle"
+  },
+  {
+    "id": 64,
+    "name": "Bamboo Toothbrush (4-Pack)",
+    "category": "Home",
+    "price": 10,
+    "image_url": "https://images.unsplash.com/photo-1606811971601-51f4b5f9373a?w=500",
+    "description": "Eco‑friendly toothbrushes with soft bristles"
+  },
+  {
+    "id": 65,
+    "name": "Minimalist Analog Watch",
+    "category": "Accessories",
+    "price": 79,
+    "image_url": "https://images.unsplash.com/photo-1519751138087-5a8a0c4d1a2e?w=500",
+    "description": "Everyday stainless steel watch with leather band"
+  }
+]

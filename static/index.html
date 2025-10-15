@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Product Matcher - Find Similar Products</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>🔍 Visual Product Matcher</h1>
+            <p>Upload an image to find visually similar products</p>
+            <button id="themeToggle" class="btn btn-secondary" aria-pressed="false" aria-label="Toggle dark mode">Toggle theme</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main" class="container" role="main" aria-live="polite">
+        <!-- Upload Section -->
+        <section class="upload-section" aria-labelledby="upload-section-title">
+            <h2 id="upload-section-title" class="visually-hidden">Upload Options</h2>
+            <div class="upload-tabs" role="tablist" aria-label="Upload options">
+                <button class="tab-button active" role="tab" aria-selected="true" aria-controls="file-tab" id="tab-file" data-tab="file">Upload Image</button>
+                <button class="tab-button" role="tab" aria-selected="false" aria-controls="url-tab" id="tab-url" data-tab="url">Image URL</button>
+            </div>
+
+            <!-- File Upload Tab -->
+            <div class="tab-content active" id="file-tab" role="tabpanel" aria-labelledby="tab-file">
+                <div class="upload-area" id="uploadArea" role="button" tabindex="0" aria-label="Click or press Enter to upload an image, or drag and drop a file">
+                    <input type="file" id="fileInput" accept="image/*" hidden aria-hidden="true">
+                    <div class="upload-icon">📸</div>
+                    <p class="upload-text">Click to upload or drag and drop</p>
+                    <p class="upload-hint">PNG, JPG, GIF up to 16MB</p>
+                </div>
+            </div>
+
+            <!-- URL Input Tab -->
+            <div class="tab-content" id="url-tab" role="tabpanel" aria-labelledby="tab-url" aria-hidden="true">
+                <div class="url-input-container">
+                    <label for="urlInput" class="visually-hidden">Image URL</label>
+                    <input type="text" id="urlInput" placeholder="https://example.com/image.jpg" class="url-input" aria-describedby="urlHelp">
+                    <button id="urlSearchBtn" class="btn btn-primary" aria-label="Search by image URL">Search</button>
+                </div>
+                <p id="urlHelp" class="visually-hidden">Enter a direct link to an image (JPEG, PNG, GIF, or WEBP).</p>
+            </div>
+
+            <!-- Preview Section -->
+            <div class="preview-section" id="previewSection" style="display: none;">
+                <h3>Uploaded Image</h3>
+                <div class="preview-container">
+                    <img id="previewImage" alt="Preview">
+                    <button id="clearBtn" class="btn btn-secondary">Clear & Upload New</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading Spinner -->
+        <div class="loading" id="loading" style="display: none;" aria-live="polite" aria-busy="true">
+            <div class="spinner"></div>
+            <p>Analyzing image and finding similar products...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div class="error-message" id="errorMessage" style="display: none;" role="alert" aria-live="assertive">
+            <span class="error-icon">⚠️</span>
+            <span id="errorText"></span>
+            <button class="close-error" onclick="hideError()">×</button>
+        </div>
+
+        <!-- Results Section -->
+        <section class="results-section" id="resultsSection" style="display: none;">
+            <div class="results-header">
+                <h2>Similar Products Found</h2>
+                <div class="results-controls">
+                    <label for="categoryFilter">Filter by category:</label>
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="">All Categories</option>
+                    </select>
+                    
+                    <label for="similarityFilter">Min Similarity:</label>
+                    <input type="range" id="similarityFilter" min="0" max="100" value="0" class="similarity-slider">
+                    <span id="similarityValue">0%</span>
+                </div>
+            </div>
+
+            <div class="query-description" id="queryDescription"></div>
+
+            <div class="products-grid" id="productsGrid" aria-live="polite">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+
+            <div class="no-results" id="noResults" style="display: none;">
+                <p>No products match your filters. Try adjusting the similarity threshold.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Visual Product Matcher | Powered by Gemini 2.0 Flash</p>
+        </div>
+    </footer>
+
+    <script src="/static/script.js?v=20251015b"></script>
+</body>
+</html>
