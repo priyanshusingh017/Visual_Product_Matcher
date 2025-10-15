@@ -60,6 +60,8 @@ Key capabilities:
 
 Run locally then open http://localhost:5000
 
+Demo video: [Watch on Google Drive](https://drive.google.com/file/d/1NMxgkngfhFAvjE3W319q_ecPjdBGqK9d/view?usp=sharing)
+
 Workflow:
 1) Upload an image or paste a URL
 2) AI extracts visual features
