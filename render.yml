@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: visual-product-matcher
+    env: python
+    plan: free
+    region: oregon
+
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+
+    startCommand: gunicorn app:app --workers=2 --timeout=120 --bind 0.0.0.0:$PORT
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: PORT
+        value: 10000
+      # Set GEMINI_API_KEY in the Render Dashboard -> Environment
+      # This placeholder entry documents the required secret; do NOT commit real keys.
+      - key: GEMINI_API_KEY
+        sync: false
+
+    autoDeploy: true
+    healthCheckPath: /api/health
+    # Optional: increase if first response is slow on cold start
+    healthCheckTimeout: 300
