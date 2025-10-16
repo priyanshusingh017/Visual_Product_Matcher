@@ -72,6 +72,8 @@ Key capabilities:
 
 Run locally then open http://localhost:5000
 
+Live app: https://visual-product-matcher-75cj.onrender.com
+
 Demo video: [Watch on Google Drive](https://drive.google.com/file/d/1NMxgkngfhFAvjE3W319q_ecPjdBGqK9d/view?usp=sharing)
 
 Workflow:
@@ -310,7 +312,7 @@ GET /api/categories
 6. Click **"Create Web Service"**
 7. Wait 3-5 minutes for deployment
 
-**Your URL:** `https://visual-product-matcher.onrender.com`
+**Your URL:** `https://visual-product-matcher-75cj.onrender.com`
 
 **Free Tier Notes:**
 - ⚠️ Service spins down after 15 min of inactivity
